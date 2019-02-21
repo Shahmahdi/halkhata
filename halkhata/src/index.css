@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.topNavigation {
+  min-height: 7vh;
+}
+.main_content_body {
+  padding-left: 150px;
+  height: 92vh;
+  overflow: auto;
+}

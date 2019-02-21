@@ -1,16 +1,18 @@
 import * as React from 'react';
 
 export const TopNavigation = () => (
-  <nav className="db dt-l w-100 border-box pa3 ph5-l bg-black-10 topNavigation">
-    <a className="db dtc-l v-mid mid-gray link dim w-100 w-25-l tc tl-l mb2 mb0-l" href="#" title="Home">
-      Supernet Online
-    </a>
-    <div className="db dtc-l v-mid w-100 w-75-l tc tr-l">
-      <a className="link dim dark-gray f6 f5-l dib mr3 mr4-l" href="#" title="Home">Home</a>
-      <a className="link dim dark-gray f6 f5-l dib mr3 mr4-l" href="#" title="How it Works">How it Works</a>
-      <a className="link dim dark-gray f6 f5-l dib mr3 mr4-l" href="#" title="Blog">Blog</a>
-      <a className="link dim dark-gray f6 f5-l dib mr3 mr4-l" href="#" title="Press">Press</a>
-      <a className="link dim dark-gray f6 f5-l dib" href="#" title="Contact">Contact</a>
+  <nav className="bp3-navbar bp3-dark">
+    <div className="bp3-navbar-group bp3-align-left">
+      <div className="bp3-navbar-heading">Blueprint</div>
+      <input className="bp3-input" placeholder="Search files..." type="text" />
+    </div>
+    <div className="bp3-navbar-group bp3-align-right">
+      <button className="bp3-button bp3-minimal bp3-icon-home">Home</button>
+      <button className="bp3-button bp3-minimal bp3-icon-document">Files</button>
+      <span className="bp3-navbar-divider" />
+      <button className="bp3-button bp3-minimal bp3-icon-user" />
+      <button className="bp3-button bp3-minimal bp3-icon-notifications" />
+      <button className="bp3-button bp3-minimal bp3-icon-cog" />
     </div>
   </nav>
 );
